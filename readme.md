@@ -1,4 +1,6 @@
-# FTSR – File Transfer System & Records
+<p align="left">
+  <img src="docs/Flat-Final-Logo.png" alt="alt text" width="700">
+</p>
 
 FTSR is a full-stack learning project that simulates an internal banking system used for secure file uploads, status tracking, and audit record management. The goal is to gain hands-on experience across backend development, frontend development, CI/CD pipelines, and enterprise tooling.
 
