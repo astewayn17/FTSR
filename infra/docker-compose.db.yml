@@ -1,0 +1,13 @@
+services:
+  ftsr-db:
+    image: postgres:16.1
+    container_name: ftsr_db
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - ftsr_db_data:/var/lib/postgresql/data
+
+volumes:
+  ftsr_db_data:
